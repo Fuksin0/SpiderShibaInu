@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Oswald:wght@400;500&display=swap');
+
+@import url('https://v1.fontapi.ir/css/SFProDisplay');
+/* https://fontserver.ir/font/SFProDisplay ^ */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
