@@ -90,7 +90,7 @@ export const navLinks = [
 
 export const features = [
     {
-        id: 'feature-1',
+        id: 'Triangle-feature-1',
         icon: triangleSquare,
         bg: '#384D70',
         title: 'SpiderShib Inu Ecosystem',
@@ -98,15 +98,15 @@ export const features = [
         content: 'Our ecosystem is different from all the others, we have created the first REAL nft game with SpiderShib Inu. So the tokens will have real usefulness and to ensure constant growth for all holders.',
     },
     {
-        id: 'feature-2',
+        id: 'Square-feature-2',
         icon: tabsSquare,
         bg: '#384D70',
         title: 'Many options to earn',
         description: 'Thanks to our ecosystem you will be able to earn passively and actively',
-        content: 'The passive income:- staking <br>- the appreciation of the staked currency<br>The active income:<br>- Gaming process (you will earn money that you can turn into tokens)<br>- Re-sale of the NFTs',
+        content: 'Our ecosystem is different from all the others, we have created the first REAL nft game with SpiderShib Inu. So the tokens will have real usefulness and to ensure constant growth for all holders.',
     },
     {
-        id: 'feature-3',
+        id: 'Reload-feature-3',
         icon: reloadSquare,
         bg: '#384D70',
         title: 'Reshaping DeFi',
@@ -147,32 +147,38 @@ export const investFeatures = [
     },
 ];
 
-export const roadmap = [
+export const roadmapCards = [
     {   
+        number: 1,
         icon: roadmap1,
         bg: '#384D7033',
         date: 'August 2021',
-        content: '•	Started project ☑️<br>•	Budget accumulation ☑️<br>•	Winning team search ☑️'
+        content: 
+        "• Started project ☑️<br>• Budget accumulation ☑️<br>• Winning team search ☑️"
     },
     {   
+        number: 2,
         icon: roadmap2,
         bg: '#384D7033',
         date: 'Sept - Nov 2021',
-        content:'•Whitepapercreation☑️<br>Smartcontract testing ☑️<br>•	Building ideas for nft game ☑️<br>•	start developing website and game ☑️<br>•	start creating NFT ☑️<br>•	start creating tokenomics ☑️'
+        content:'Whitepaper creation☑️<br>Smart contract testing ☑️<br>• Building ideas for nft game ☑️<br>•	start developing website and game ☑️<br>•	start creating NFT ☑️<br>•	start creating tokenomics ☑️'
     },
     {   
+        number: 3,
         icon: roadmap3,
         bg: '#384D7033',
         date: 'Dec - Jan 2022',
         content: '•	Official launch on pinksale ☑️<br>•	Start marketing campaign ☑️<br>• Airdrop ☑️<br>• Panckacke swap launch ☑️<br>• Start of collaborations with decentraland and the sandbox ☑️'
     },
     {   
+        number: 4,
         icon: roadmap4,
         date: 'Q1 2022',
         bg: '#384D70',
         content: '•	Listing on coinmarketcap and coingecko<br>•	Early beta game<br>•	Promotion cooperation with big celebrities<br>•	NFT & Game community build-up<br>•	NFT collaborations and launch'
     },
     {   
+        number: 5,
         icon: roadmap5,
         date: 'Q2 2022',
         bg: '#384D70',

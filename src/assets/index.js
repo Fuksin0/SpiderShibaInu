@@ -47,6 +47,9 @@ import close from './close.svg'
 import mobileClose from './mobileClose.svg'
 import mobileMenu from './mobileMenu.svg'
 import shibaPlanet from './shibaPlanet.svg'
+import earth from './planet-earth.png'
+import PlayAndEarnLogo from './PlayAndEarnLogo.png'
+import roadmapEnd from './Vector 8.svg'
 
 export {
 logo,
@@ -79,15 +82,18 @@ person2,
 person3, 
 person4,
 planet,
+PlayAndEarnLogo,
+earth,
 roadmap1,
 roadmap2,
 roadmap3,
 roadmap4,
-roadmap5, 
+roadmap5,
+roadmapEnd, 
 reddit, 
 reloadCircle,
 reloadSquare, 
-shibaLogo, 
+shibaLogo,
 smallCircle, 
 star,
 shibaPlanet, 

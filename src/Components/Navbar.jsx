@@ -4,6 +4,10 @@ import {logo,close,menu, mobileClose, mobileMenu } from '../assets'
 import { navLinks } from '../constants'
 const Navbar = ()  => {
   const [toggle, setToggle] = useState(false);
+
+    toggle?document.body.style.overflow = 'hidden':document.body.style.overflow = 'auto'; //prevent scrolling when burger menu toggled(opened)
+  
+
   return (
     <nav className='flex pt-[16.5px] xl:container justify-between items-center xl:mx-auto xl:px-4 lg:mx-2 md:mx-2 container mb-[50px]'>
       <img className='w-[135px] md:w-[100px] lg:w-[130px] xl:w-[250px]' src={logo} alt={logo} />
