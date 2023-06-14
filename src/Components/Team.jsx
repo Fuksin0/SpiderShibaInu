@@ -1,5 +1,5 @@
 import React from 'react'
-import CarouselSlider from "react-carousel-slider"
+
 
 const Team = () => {
   return (
