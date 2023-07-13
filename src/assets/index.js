@@ -50,6 +50,7 @@ import shibaPlanet from './shibaPlanet.svg'
 import earth from './planet-earth.png'
 import PlayAndEarnLogo from './PlayAndEarnLogo.png'
 import roadmapEnd from './Vector 8.svg'
+import GraphicTokenomics from './GraphicTokenomics.png'
 
 export {
 logo,
@@ -83,6 +84,7 @@ person3,
 person4,
 planet,
 PlayAndEarnLogo,
+GraphicTokenomics,
 earth,
 roadmap1,
 roadmap2,

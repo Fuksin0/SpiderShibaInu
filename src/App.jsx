@@ -1,4 +1,4 @@
-import { Navbar, Hero, FindOut, HowItWorks, PlayToEarn, Roadmap, Team } from "./Components";
+import { Navbar, Hero, FindOut, HowItWorks, PlayToEarn, Roadmap, Team, Partners, Tokenomics, Faq } from "./Components";
 
 const App = () => {
   return (
@@ -13,6 +13,9 @@ const App = () => {
       <PlayToEarn/>
       <Roadmap/>
       <Team/>
+      <Partners/>
+      <Tokenomics/>
+      <Faq />
       </div>
       </div>
   )
