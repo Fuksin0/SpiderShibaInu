@@ -11,7 +11,7 @@ import Swiper from "../Components/SwiperJs/Swiper"
 import Partners from "./Partners";
 import Tokenomics from "./Tokenomics";
 import Faq from "./Faq";
-import DropDownButton from "./DropDownButton";
+import DropDownButton from "../Components//DropDownFAQ/DropDownButton";
 
 export {
     Navbar,

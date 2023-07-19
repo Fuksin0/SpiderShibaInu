@@ -51,6 +51,7 @@ import earth from './planet-earth.png'
 import PlayAndEarnLogo from './PlayAndEarnLogo.png'
 import roadmapEnd from './Vector 8.svg'
 import GraphicTokenomics from './GraphicTokenomics.png'
+import faqArrow from './faqArrow.png'
 
 export {
 logo,
@@ -60,6 +61,7 @@ bigSpiderNet,
 coin,
 close,
 facebook,
+faqArrow,
 goblin,
 goblinSpiderNet,
 herobg, 
