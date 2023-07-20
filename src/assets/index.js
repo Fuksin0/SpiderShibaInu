@@ -52,6 +52,8 @@ import PlayAndEarnLogo from './PlayAndEarnLogo.png'
 import roadmapEnd from './Vector 8.svg'
 import GraphicTokenomics from './GraphicTokenomics.png'
 import faqArrow from './faqArrow.png'
+import bgJoin from './bgJoin.svg'
+import shibaJoin from './shibaJoinCommunity.png'
 
 export {
 logo,
@@ -99,8 +101,10 @@ reloadCircle,
 reloadSquare, 
 shibaLogo,
 smallCircle, 
+bgJoin,
 star,
-shibaPlanet, 
+shibaPlanet,
+shibaJoin, 
 tabsCircle, 
 tabsSquare, 
 telegram, 

@@ -1,4 +1,4 @@
-import { Navbar, Hero, FindOut, HowItWorks, PlayToEarn, Roadmap, Team, Partners, Tokenomics, Faq } from "./Components";
+import { Navbar, Hero, FindOut, HowItWorks, PlayToEarn, Roadmap, Team, Partners, Tokenomics, Faq, JoinCommunity,  } from "./Components";
 
 const App = () => {
   return (
@@ -15,7 +15,8 @@ const App = () => {
       <Team/>
       <Partners/>
       <Tokenomics/>
-      <Faq />
+      <Faq/>
+      <JoinCommunity/>
       </div>
       </div>
   )

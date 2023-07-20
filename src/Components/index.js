@@ -12,6 +12,7 @@ import Partners from "./Partners";
 import Tokenomics from "./Tokenomics";
 import Faq from "./Faq";
 import DropDownButton from "../Components//DropDownFAQ/DropDownButton";
+import JoinCommunity from "./JoinCommunity";
 
 export {
     Navbar,
@@ -28,5 +29,6 @@ export {
     Tokenomics,
     Faq,
     DropDownButton,
+    JoinCommunity,
 }
 
