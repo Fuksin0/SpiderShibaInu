@@ -13,6 +13,8 @@ import Tokenomics from "./Tokenomics";
 import Faq from "./Faq";
 import DropDownButton from "../Components//DropDownFAQ/DropDownButton";
 import JoinCommunity from "./JoinCommunity";
+import Footer from "./Footer";
+import RoundedDiagramm from "./RoundedDiagramm";
 
 export {
     Navbar,
@@ -30,5 +32,7 @@ export {
     Faq,
     DropDownButton,
     JoinCommunity,
+    Footer,
+    RoundedDiagramm,
 }
 

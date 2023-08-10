@@ -6,11 +6,12 @@ export default {
   ],
   theme: {
     container: {
+      center: true,
       padding: {
         DEFAULT: '15px',
-        xs: '1rem',
-        ss: '2rem',
-        sm: '3rem',
+        // xs: '15px',
+        // ss: '15px',
+        // sm: '3rem',
         md: '4rem',
         lg: '5rem',
         xl: '6rem',
@@ -18,8 +19,8 @@ export default {
       },
     },
     screens: {
-      xs: "480px",
-      ss: "620px",
+      // xs: "480px", // Под это разрешение смысла делать нет, просто оставлю пока в таблице, может надумаю что то сделать, но вряд ли, оно смотрится и так нормально
+      ss: "620px", 
       sm: "768px",
       md: "1060px",
       lg: "1200px",
