@@ -6,7 +6,7 @@ import { herobg, herobigshiba } from '../assets'
 function Hero() {
   return (
     <section>
-    <div className='text-white container font-sf-display flex flex-col z-10'>
+    <div className='text-white !w-[99%] container font-sf-display flex flex-col z-10'>
       <h1 className=' font-extrabold text-[50px] leading-[50px] mb-[10px] relative'>
       <span className='text-[#E11D2E]'>Who is <span className='text-white'>mr.</span>
       <br/>
