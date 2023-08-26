@@ -10,14 +10,17 @@ const Navbar = ()  => {
     const isDesktop = UseMediaQuery('(min-width: 1024px)');
 
   return (
-    <nav className='flex pt-[16.5px] xl:container justify-between items-center xl:mx-auto xl:px-4 lg:mx-2 md:mx-2 container mb-[50px] !w-[99%]'>
-      <img className='w-[135px] md:w-[100px] lg:w-[130px] xl:w-[250px]' src={logo} alt={logo} />
+    <nav className='flex pt-[16.5px] xl:mx-0 justify-between items-center  sm:pl-[40px] ss:pl-[35px] md:pl-[55px] lg:pl-[75px] pl-[15px] pr-[25px] mx-auto  md:mx-0  mb-[50px] !w-[99%]'>
+      <div>
+        <img className='w-[135px] sm:mr-[45px] md:mr-[70px] md:w-[140px] lg:w-[150px] xl:w-[220px]' src={logo} alt={logo} />
+        </div>
+      
 
-      <ul className='sm:flex hidden justify-around items-center flex-1'>
+      <ul className='sm:flex hidden justify-evenly items-center flex-1'>
       {isDesktop ? navLinks.slice(0,5).map((nav, id) => (
           <li key={nav.id}
-            className=' text-white font-sf-display text-[12px] font-semibold leading-5 xl:mr-[25px] xl:text-[15px] lg:mr-[10px]
-            md:text-[8px] md:mr-[1px] lg:text-[12px]
+            className=' text-white font-sf-display text-[12px] font-semibold leading-5 xl:mr-[25px] xl:text-[18px] lg:mr-[10px]
+            md:text-[12px] md:mr-[1px] lg:text-[14px]
             '
           >
             <a href={`#${nav.id}`}>
@@ -40,7 +43,7 @@ const Navbar = ()  => {
         }
     
         <div>
-          <a href='#' className='border border-[#AC1216] rounded-xl  text-white hover:text-[#ff7849] text-[15px] font-semibold hover:border-white items-center text-center px-5 py-2 bg-[#AC1216] hover:bg-white lg:px-3 lg:py-3 lg:text-[12px] md:text-[10px]'>Join Community</a>
+          <a href='#' className='border border-[#AC1216] rounded-xl  text-white hover:text-[#ff7849] text-[15px] font-semibold hover:border-white items-center text-center px-5 py-2 bg-[#AC1216] hover:bg-white lg:px-3 lg:py-3 lg:text-[14px] md:text-[12px]'>Join Community</a>
         </div>
       </ul>
 

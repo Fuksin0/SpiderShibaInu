@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     container: {
-      center: true,
+      // center: true,
       padding: {
         DEFAULT: '15px',
         // xs: '15px',
@@ -24,7 +24,7 @@ export default {
       sm: "768px",
       md: "1060px",
       lg: "1200px",
-      xl: "1700px",
+      xl: "1600px",
     },
     extend: {
       fontFamily: {
