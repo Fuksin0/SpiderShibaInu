@@ -10,7 +10,7 @@ const Navbar = ()  => {
     const isDesktop = UseMediaQuery('(min-width: 1024px)');
 
   return (
-    <nav className='flex pt-[16.5px] xl:mx-0 justify-between items-center  sm:pl-[40px] ss:pl-[35px] md:pl-[55px] lg:pl-[75px] pl-[15px] pr-[25px] mx-auto  md:mx-0  mb-[50px] !w-[99%]'>
+    <nav className=':uno: flex pt-[16.5px] xl:mx-0 justify-between items-center  sm:pl-[40px] ss:pl-[35px] md:pl-[55px] lg:pl-[75px] pl-[15px] pr-[25px] mx-auto  md:mx-0  mb-[50px] !w-[99%]'>
       <div>
         <img className='w-[135px] sm:mr-[45px] md:mr-[70px] md:w-[140px] lg:w-[150px] xl:w-[220px]' src={logo} alt={logo} />
         </div>
