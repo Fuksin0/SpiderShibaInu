@@ -36,6 +36,9 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./assets/heroBG.png')",
       },
+      flex: {
+        '2': '1 1 50%'
+      }
     },
   },
   plugins: [],
