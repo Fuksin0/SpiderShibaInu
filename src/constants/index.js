@@ -161,7 +161,7 @@ export const roadmapCards = [
         icon: roadmap2,
         bg: '#384D7033',
         date: 'Sept - Nov 2021',
-        content:'Whitepaper creation☑️<br>Smart contract testing ☑️<br>• Building ideas for nft game ☑️<br>•	start developing website and game ☑️<br>•	start creating NFT ☑️<br>•	start creating tokenomics ☑️'
+        content:'•	Whitepaper creation☑️<br>•	Smart contract testing ☑️<br>• Building ideas for nft game ☑️<br>•	start developing website and game ☑️<br>•	start creating NFT ☑️<br>•	start creating tokenomics ☑️'
     },
     {   
         number: 3,
@@ -204,6 +204,26 @@ export const team = [
     },
     {
         icon: person4,
+        name: 'Lisa Dowen',
+        designation: 'Marketing and funnels',
+    },
+    {
+        icon: person4,
+        name: 'Lisa Dowen',
+        designation: 'Marketing and funnels',
+    },
+    {
+        icon: person3,
+        name: 'Lisa Dowen',
+        designation: 'Marketing and funnels',
+    },
+    {
+        icon: person1,
+        name: 'Lisa Dowen',
+        designation: 'Marketing and funnels',
+    },
+    {
+        icon: person2,
         name: 'Lisa Dowen',
         designation: 'Marketing and funnels',
     },

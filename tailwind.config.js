@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
 export default {
   content: [
     "./index.html",
@@ -41,6 +42,24 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ matchVariant }) {
+      matchVariant(
+        'nth',
+        (value) => {
+          return `&:nth-child(${value})`;
+        },
+        {
+          values: {
+            1: '1',
+            2: '2',
+            3: '3',
+            4: '4',
+            5: '5',
+          }
+        }
+      );
+    })
+  ],
 }
 

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components 
-import { Swiper,SwiperSlide } from "swiper/react";
-import  { Navigation } from 'swiper';
+import { Swiper,SwiperSlide, } from "swiper/react";
+import  { Keyboard, Navigation, } from 'swiper';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,7 +18,28 @@ import { team } from "../../constants";
 const SwiperSlider = () => {
   return (
     <>
-    <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+    <Swiper 
+    pagination={true}
+    dynamicBullets="true"
+    dynamicMainBullets={1}
+    spaceBetween={20}
+    slidesPerView={4}
+    breakpoints={{
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      1060: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      }}}
+    keyboard={true}
+    modules={[Pagination, Keyboard]} 
+    className="mySwiper">
     {team.map((slide) => (
     <SwiperSlide>
 <div>

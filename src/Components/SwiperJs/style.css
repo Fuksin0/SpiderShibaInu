@@ -23,8 +23,10 @@
   }
   
   .swiper {
-    width: 50%;
+    width: auto;
     height: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
   
   }
   
@@ -46,9 +48,19 @@
     height: 100%;
     object-fit: cover;
   }
+  .swiper-slide {
+    background: none;
+  }
 
 .swiper-pagination, 
 .swiper-pagination-bullets, 
 .swiper-pagination-horizontal {
   margin-bottom:-119px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #A2A7B4;
+}
+.swiper-pagination-bullet-active {
+ background-color:red;
 }
